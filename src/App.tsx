@@ -3,12 +3,14 @@ import Alert from "./components/Alert";
 import Button from "./components/Button";
 import ListGroup from "./components/ListGroup";
 import Like from "./components/Like";
+import Message from "./Message";
 function App() {
   // const [alertVisibile, setAlertVisibile] = useState(false);
-  const items = ["Kabul", "Kandakhar", "Mazar"];
+  // const items = ["Kabul", "Kandakhar", "Mazar"];
+
   return (
     <div>
-      <Like onClick={() => console.log("Click")} />
+      {/* <Like onClick={() => console.log("Click")} /> */}
       {/* <ListGroup
         items={items}
         heading="List"
